@@ -1,0 +1,198 @@
+/*Estilo Geral*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Indie Flower', cursive;
+font-family: 'Cinzel', serif;
+}
+
+body{
+    background-color: #0e071f ;
+}
+
+.interface{
+    margin-left: 1%;
+}
+
+/*Estilo do Cabeçalho*/
+header{
+    padding: 40px 6% ;
+    
+    text-align: center;
+    max-width: 1500px;
+    margin: 1% 0;
+}
+
+header h1{
+    font-size: 180%;
+}
+
+header > txt-topo-do-site{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header a{
+    color: rgb(122, 101, 123);
+    text-decoration: none;
+    font-size: 82%;
+}
+
+header nav ul li{
+    display: inline-block;
+    
+}
+
+
+
+
+/*Estilo das Imagens*/
+
+body .container{
+display: flex;
+justify-content:center;
+max-width: 1080px;
+margin: 30px;
+display: flex;
+box-shadow: 0 0 40px 5px;
+align-items: center;
+}
+
+body .container .flex{ 
+    justify-content: space-around;
+}
+
+body .container{
+    width: 60%;
+    height: 10%;
+    margin-left: 18%;
+    padding: 2% ;
+    margin-block: 5%;
+}
+
+header .Foto-de-Sarah{
+    padding: 11% 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+
+    padding: 8.2% 5.1%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    clip-path: circle(100%);
+    border: 20%;
+    border-radius: 60px;
+}
+
+header a:hover{
+    color: rgb(234, 174, 236);
+    transform: scale(1.05);
+    transition: .1.5s;
+}
+header nav ul{
+    list-style-type: none;
+}
+   
+header nav ul li{
+display: inline-block;
+padding: 40px 60px;
+margin-top: 1%;
+font-size: 20px;
+}
+
+header div{
+    color: rgb(234, 174, 236);
+    margin-top: 2%;
+    font-size: 23px;
+    padding: 0px 98px;
+    font-family: 'Cinzel', serif;
+}
+
+/*EStilo das Requisições*/
+
+main div.interface{
+    border: 0.9px solid rgba(155, 108, 139, 0.394);
+    margin-left: 1%;
+    font-size: 100%;
+    max-width: 1% 3%;
+    padding: 8% ;
+    text-align: justify;
+    box-shadow: 0 0 15px 5px;
+}
+
+main div.interface p{
+margin: 2% 0;
+}
+
+main div.interface:hover{
+    transform: scale(1.009);
+    box-shadow: 0 0 25% #ffffff;
+    transition: .2.5s;
+}
+
+
+section.Sobre{
+    padding: 40px 4%;
+    color: rgb(122, 101, 123);
+}
+
+
+section.Habilidades{
+    padding: 40px 4%;
+    color: rgb(122, 101, 123);
+}
+
+section.Projetos{
+    padding: 40px 4%;
+    color: rgb(122, 101, 123);
+}
+
+h2.título{
+    color: rgb(234, 174, 236);
+    margin-left: -2%;
+    padding: 2%;
+}
+
+
+/*Estilo do Rodapé*/
+
+footer{
+    padding: 40px 4%;
+
+}
+
+footer{
+    
+display: flex;
+justify-content:flex-start ;
+max-width: 900px;
+margin: 150px;
+display: flex;
+box-shadow: 0 0 80px 5px;
+align-items: center;
+}
+
+footer .line-footer p i{
+    color: rgb(174, 26, 182);
+    font-size: 22px;
+    padding-right: 5px;
+}
+
+footer .line-footer p a{
+    color: rgb(122, 101, 123);
+    text-decoration:underline;
+    
+}
+
+footer .line-footer p{
+    color: rgb(122, 101, 123);
+    text-decoration: none;
+}
+
+
